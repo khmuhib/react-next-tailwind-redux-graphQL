@@ -1,5 +1,23 @@
 .flex_box_main {
-    background-color: brown;
-    height: 300px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.flex_box_title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+
+.flex_box_title span {
+    background-color: blueviolet;
     color: white;
+}
+
+.flex_components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

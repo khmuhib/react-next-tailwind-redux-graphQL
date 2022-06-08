@@ -1,0 +1,74 @@
+.card_main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 2px solid transparent;
+
+}
+
+.card_main:hover {
+    border-color: blueviolet;
+    box-shadow: 0px 0px 9px -2px blueviolet;
+}
+
+
+.card_top_circle_img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+
+}
+
+
+.card_top_circle_text {
+    text-align: center;
+    padding: 30px 0px; 
+
+}
+
+.card_top_circle_text h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.card_top_circle_text p {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.card_top_circle_text hr{
+    width: 15%;
+    background-color: black;
+    height: 4px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card_top_circle_button {
+
+}
+
+.card_top_circle_button a {
+    display: block;
+    background-color: lightsalmon;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.card_top_circle_button a:hover {
+    background-color: salmon;
+}

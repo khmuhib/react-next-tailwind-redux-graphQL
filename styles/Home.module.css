@@ -1,4 +1,4 @@
-.header_main {
+/* .header_main {
   background-color: lightblue;
   height: 100px;
   display: flex;
@@ -30,12 +30,12 @@
 }
 
 
+ */
 
 
 
 
-
-/* .container {
+.container {
   padding: 0 2rem;
 }
 
@@ -68,6 +68,10 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+}
+
+.title span {
+  color: #0070f3;
 }
 
 .title a:hover,
@@ -150,4 +154,4 @@
     width: 100%;
     flex-direction: column;
   }
-} */
+}

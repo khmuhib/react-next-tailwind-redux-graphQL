@@ -1,5 +1,5 @@
 import React from 'react'
-import stylesWalcart from './walCart.module.css'
+import stylesWalcart from "./walCart.module.css";
 
 export default function walCart() {
   return (
