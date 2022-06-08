@@ -1,0 +1,11 @@
+.coin_main {
+    background-color: lightcyan;
+    overflow: hidden;
+    text-align: left;
+}
+
+.coin_main h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}

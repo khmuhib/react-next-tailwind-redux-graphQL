@@ -36,20 +36,24 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://vuecore.reviewsheeter.com/" className={styles.card}>
+          <a href="https://walcart.reviewsheeter.com/" className={styles.card}>
             <h2>Walcart UI &rarr;</h2>
             <p>Please click here to see this UI only Using React Js</p>
           </a>
 
-          <a href="#" className={styles.card}>
-            <h2>Application &rarr;</h2>
-            <p>Redux and GraphQL Simple Appication</p>
-          </a>
+          <Link href="/redux/reduxText">
+            <a className={styles.card}>
+              <h2>Application &rarr;</h2>
+              <p>Redux and GraphQL Simple Appication</p>
+            </a>
+          </Link>
 
-          <a href="/flexbox/flexBox" className={styles.card}>
-            <h2>Card Design &rarr;</h2>
-            <p>React Component Using Flexbox</p>
-          </a>
+          <Link href="/flexbox/flexBox">
+            <a className={styles.card}>
+              <h2>Card Design &rarr;</h2>
+              <p>React Component Using Flexbox</p>
+            </a>
+          </Link>
 
           {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

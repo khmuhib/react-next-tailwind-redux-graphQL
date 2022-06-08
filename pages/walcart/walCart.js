@@ -6,3 +6,4 @@ export default function walCart() {
     <div className={stylesWalcart.walcart_main}>walCart</div>
   )
 }
+// npm install redux react-redux @reduxjs/toolkit
