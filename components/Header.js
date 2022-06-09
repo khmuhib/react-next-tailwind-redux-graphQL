@@ -25,6 +25,10 @@ function Header() {
       link: "/coin/coins",
     },
     {
+      title: "GraphQL",
+      link: "/api/graphql",
+    },
+    {
       title: "My Design",
       link: "/redux/reduxText",
 
